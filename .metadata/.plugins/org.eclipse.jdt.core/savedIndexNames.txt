@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/petersharkas/Desktop/AmazonGC/Lab_4.3/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+1816963510.index
+4168988390.index

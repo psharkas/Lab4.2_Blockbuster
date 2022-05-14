@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public abstract class Movie {
+	
+	private String title;
+	private int runTime = 0;
+	ArrayList<String> scenes = new ArrayList<>();
+	
+	public void printInfo() {
+		System.out.println(title);
+		System.out.println(runTime);
+
+	}
+	
+	public void printScenes() {
+		System.out.println(title);
+		System.out.println(scenes);
+
+	}
+	
+
+
+}
