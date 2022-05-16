@@ -23,7 +23,6 @@ public class MovieApp {
 		int selection = selectMovie(movies, scanner);
 		
 		// asks the user to confirm that this is the movie they want to watch
-		
 		System.out.println("Do you want to watch " + (movies.get(selection-1).getTitle() + "?" + " Select yes or no."));
 		String answer = scanner.nextLine();
 
@@ -49,7 +48,6 @@ public class MovieApp {
 					System.out.println("Please enter a valid number.");
 				}
 			}catch(InputMismatchException e) {
-				System.out.println("Please try again, enter a valid number.");
 				scanner.next();
 			}
 
