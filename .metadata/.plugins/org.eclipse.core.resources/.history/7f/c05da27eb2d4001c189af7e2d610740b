@@ -1,0 +1,31 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Tests {
+	
+	@Test
+	void testDVDInstance() {
+		Movie dvd1 = new DVD();
+		assertNotNull(dvd1);
+	}
+	
+	@Test
+	void testDVDTitle() {
+		Movie dvd2 = new DVD();
+		String expected = "Avatar the Last Airbender";
+		dvd2.setTitle("Avatar the Last Airbender");
+		String actual = dvd2.getTitle();
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	void testDVDRunTime() {
+		Movie dvd3 = new DVD();
+		int expected = 103;
+		dvd3.setRunTime(103);
+		int actual = dvd3.getRunTime();
+		assertEquals(expected,actual);
+	}
+
+}

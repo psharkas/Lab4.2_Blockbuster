@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests" project="Blockbuster" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="Tests" time="0.02" uniqueid="[engine:junit-jupiter]/[class:Tests]">
+    <testcase name="testDVDInstance" classname="Tests" time="0.006" displayname="testDVDInstance()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testDVDInstance()]"/>
+    <testcase name="testDVDTitle" classname="Tests" time="0.006" displayname="testDVDTitle()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testDVDTitle()]"/>
+    <testcase name="testVHSInstance" classname="Tests" time="0.002" displayname="testVHSInstance()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testVHSInstance()]"/>
+    <testcase name="testDVDRunTime" classname="Tests" time="0.001" displayname="testDVDRunTime()" uniqueid="[engine:junit-jupiter]/[class:Tests]/[method:testDVDRunTime()]"/>
+  </testsuite>
+</testrun>
